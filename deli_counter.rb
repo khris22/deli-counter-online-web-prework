@@ -5,4 +5,13 @@ def line(deli)
     puts "The line is currently empty."
   else
     current_line = "The line is currently:"
-    deli.each
+    deli.each_with_index(1) do |person, num|
+      current_line << " #{num}. #{person}"
+    end
+    puts current_line
+  end
+end
+
+def take_a_number(deli, name)
+  deli << name
+  puts ""
