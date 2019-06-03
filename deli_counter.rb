@@ -1,3 +1,5 @@
 # Write your code here.
 
-def line
+def line(deli)
+  if deli.empty?
+    puts "Th"
