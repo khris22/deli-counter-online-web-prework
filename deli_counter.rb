@@ -2,4 +2,6 @@
 
 def line(deli)
   if deli.empty?
-    puts "Th"
+    puts "The line is currently empty."
+  else
+    current_line = ""
